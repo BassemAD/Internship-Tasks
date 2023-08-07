@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/swipeRefreshLayout">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#202020">
+
+
+    <TextView
+        android:id="@+id/lastUpdated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_updated"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="75dp"
+        tools:layout_conversion_absoluteHeight="20dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="411dp" />
+
+
+    <TextView
+        android:id="@+id/buyRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/buy_rate"
+        android:textColor="#08FF04"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteHeight="20dp"
+        tools:layout_conversion_absoluteWidth="58dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="20dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/sellRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sell_rate"
+        android:textColor="#08FF04"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="-140dp"
+        tools:layout_conversion_absoluteHeight="20dp"
+        tools:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_conversion_absoluteWidth="57dp" />
+
+    <TextView
+        android:id="@+id/buyDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-260dp"
+        android:layout_marginTop="300dp"
+        android:text="Rates are according to the black market, which show the conversion for every 1 USD"
+        android:textColor="#F8F9F9"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/pullToRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-260dp"
+        android:layout_marginTop="105dp"
+        android:text="Pull down to refresh"
+        android:textColor="#808080"
+        android:textSize="10sp" />
+
+
+
+
+
+</LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

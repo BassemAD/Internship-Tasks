@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LBP Rate</string>
+    <string name="buy_rate">Buy rate:</string>
+    <string name="sell_rate">Sell rate:</string>
+    <string name="last_updated">Last Updated:</string>
+</resources>
